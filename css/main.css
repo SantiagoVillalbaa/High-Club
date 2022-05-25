@@ -426,7 +426,7 @@ table {
   width: 300px;
   border: solid 4px black; }
 
-.section-nf {
+.section-drew {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 1rem;
@@ -435,10 +435,10 @@ table {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 10px; }
-  .section-nf p {
+  .section-drew p {
     font-size: 22px; }
 
-.section-stussy {
+.section-vlone {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 1rem;
@@ -447,10 +447,10 @@ table {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 10px; }
-  .section-stussy p {
+  .section-vlone p {
     font-size: 22px; }
 
-.section-ow {
+.section-supreme {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 1rem;
@@ -459,7 +459,7 @@ table {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 10px; }
-  .section-ow p {
+  .section-supreme p {
     font-size: 22px; }
 
 .section-jordan {
@@ -474,18 +474,18 @@ table {
   .section-jordan p {
     font-size: 22px; }
 
-.sad {
+.lanzamientos {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 20px; }
-  .sad .card {
+  .lanzamientos .card {
     position: relative;
     width: 300px;
     height: 400px;
     margin: 40px; }
-    .sad .card .face {
+    .lanzamientos .card .face {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -493,15 +493,15 @@ table {
       border-radius: 0px;
       overflow: hidden;
       transition: 1s; }
-    .sad .card .front {
+    .lanzamientos .card .front {
       transform: perspective(500px) rotateY(0deg);
       box-shadow: 0 10px 10px #000; }
-      .sad .card .front img {
+      .lanzamientos .card .front img {
         position: absolute;
         width: 100%;
         height: 100%;
         object-fit: cover; }
-      .sad .card .front h3 {
+      .lanzamientos .card .front h3 {
         font-size: 30px;
         position: absolute;
         bottom: 0;
@@ -511,7 +511,7 @@ table {
         color: white;
         background: black;
         text-align: center; }
-    .sad .card .back {
+    .lanzamientos .card .back {
       transform: perspective(500px) rotateY(180deg);
       background: #f80808;
       padding: 15px;
@@ -521,21 +521,21 @@ table {
       justify-content: space-between;
       text-align: center;
       box-shadow: 0 5px 10px #000; }
-      .sad .card .back .link {
+      .lanzamientos .card .back .link {
         border-top: solid 1px white;
         height: 50px;
         line-height: 50px; }
-        .sad .card .back .link a {
+        .lanzamientos .card .back .link a {
           color: white; }
-      .sad .card .back h3 {
+      .lanzamientos .card .back h3 {
         margin-top: 20px;
         font-size: 30px;
         letter-spacing: 2px; }
-      .sad .card .back p {
+      .lanzamientos .card .back p {
         letter-spacing: 1px; }
-    .sad .card:hover .front {
+    .lanzamientos .card:hover .front {
       transform: perspective(500px) rotateY(180deg); }
-    .sad .card:hover .back {
+    .lanzamientos .card:hover .back {
       transform: perspective(500px) rotateY(360deg); }
 
 .nosotros {
