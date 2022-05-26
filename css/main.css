@@ -26,7 +26,7 @@ header {
   width: 90px; }
 
 .banner-text {
-  margin-left: 20%;
+  margin-left: 28%;
   width: 100%;
   margin-top: 10px;
   text-align: center;
@@ -189,31 +189,6 @@ header {
     font-weight: 500;
     text-shadow: 0 0 8px rgba(189, 9, 9, 0.8); }
 
-.local {
-  width: 600px; }
-  .local p {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 16px; }
-  .local a {
-    display: flex;
-    justify-content: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 16px; }
-
-.titulolocal {
-  font-size: 45px;
-  margin-top: 100px;
-  display: flex;
-  justify-content: center; }
-
-.imglocal2 {
-  width: 100%;
-  height: 200px; }
-
-.imglocal1 {
-  width: 100%;
-  height: 200px; }
-
 .section__contacto {
   margin-left: 10%;
   margin-right: 10%;
@@ -341,19 +316,12 @@ header {
   margin: 90px;
   margin-top: 50px; }
 
-.tablas {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 20px;
-  display: grid;
-  justify-content: center;
-  text-align: center;
-  margin: 90px;
-  margin-top: 50px; }
-
 table {
   box-shadow: 0 0 20px 0 rgba(157, 140, 140, 0.3);
   background-color: black;
-  border-color: #b70e21; }
+  border-color: #b70e21;
+  width: 370px;
+  height: 200px; }
 
 .section1-2 {
   margin-left: 10%;
@@ -548,6 +516,31 @@ table {
     display: flex;
     justify-content: flex-start; }
 
+.local {
+  width: 80%; }
+  .local p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px; }
+  .local a {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px; }
+
+.titulolocal {
+  font-size: 45px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center; }
+
+.imglocal2 {
+  width: 100%;
+  height: 200px; }
+
+.imglocal1 {
+  width: 100%;
+  height: 200px; }
+
 /* Seccion Contacto */
 .contacto {
   font-size: 20px;
@@ -559,8 +552,8 @@ table {
   justify-content: right;
   list-style-type: none; }
   .navegacionfinal .icononav {
-    width: 40px;
-    height: 40px; }
+    width: 50px;
+    height: 50px; }
 
 footer {
   width: 100%;
@@ -671,7 +664,7 @@ footer {
       margin-top: 100px;
       font-size: 25px; }
     .product-desc .letra-carousel {
-      font-size: 17px; }
+      font-size: 15px; }
   .contenedor {
     max-width: 350px; }
   .tamañomapa {
@@ -698,11 +691,11 @@ footer {
   .section-marcas {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 5%; }
-  .section-nf {
+  .section-supreme {
     grid-template-columns: repeat(1, 1fr); }
-  .section-stussy {
+  .section-drew {
     grid-template-columns: repeat(1, 1fr); }
-  .section-ow {
+  .section-vlone {
     grid-template-columns: repeat(1, 1fr); }
   .section-jordan {
     grid-template-columns: repeat(1, 1fr); } }
@@ -766,11 +759,11 @@ footer {
   .section-marcas {
     grid-template-columns: repeat(2, 1fr);
     margin-left: 10%; }
-  .section-nf {
+  .section-supreme {
     grid-template-columns: repeat(2, 1fr); }
-  .section-stussy {
+  .section-drew {
     grid-template-columns: repeat(2, 1fr); }
-  .section-ow {
+  .section-vlone {
     grid-template-columns: repeat(2, 1fr); }
   .section-jordan {
     grid-template-columns: repeat(2, 1fr); } }
@@ -799,11 +792,11 @@ footer {
     grid-template-columns: repeat(3, 1fr); }
   .section-marcas {
     grid-template-columns: repeat(3, 1fr); }
-  .section-nf {
+  .section-vlone {
     grid-template-columns: repeat(3, 1fr); }
-  .section-stussy {
+  .section-drew {
     grid-template-columns: repeat(3, 1fr); }
-  .section-ow {
+  .section-supreme {
     grid-template-columns: repeat(3, 1fr); }
   .section-jordan {
     grid-template-columns: repeat(3, 1fr); } }

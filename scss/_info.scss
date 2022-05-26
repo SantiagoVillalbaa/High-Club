@@ -96,6 +96,37 @@
     }
 }
 
+// Seccion Showroom
+
+.local {
+    width: 80%;
+
+    p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px; 
+    }
+    a {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px; 
+    }
+}
+.titulolocal {
+    font-size: 45px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center
+}
+.imglocal2 {
+    width: 100%;
+    height: 200px;
+}
+.imglocal1 {
+    width: 100%;
+    height: 200px;
+}
+
 /* Seccion Contacto */
 .contacto {
     font-size: 20px;
