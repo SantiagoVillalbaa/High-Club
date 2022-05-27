@@ -49,7 +49,7 @@
     
     .product-desc {
         width: 85%;
-        padding-left: 20%;
+        padding-left: 15%;
 
         .tituloprod {
             margin-top: 100px;
@@ -251,7 +251,6 @@
     }
 }
 
-
 @media screen and (min-width:1024px) {
     @mixin template-colums {
         grid-template-columns: repeat(3, 1fr);
@@ -306,4 +305,3 @@
         @include template-colums;
     }
 } 
-
