@@ -5,11 +5,12 @@
         font-size: 16px;
     }
     .banner-text {
+        margin-left: 2%;
         h1 {
-            font-size: 22px;
+            font-size: 30px;
         }
         h3 {
-            font-size: 20px;
+            font-size: 28px;
         }
     }
     .navegador {
@@ -99,21 +100,28 @@
     .comprar {
         @extend %font-mobile;
     }
+    .titulo2 {
+        font-size: 32px;
+    }
     .section1 {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 5%;
+        margin-left: 3%;
+    }
+    table {
+        width: 300px;
     }
     .section1-2 {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .sectionaccesorios {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .section-marcas {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 5%;
+        margin-left: 3%;
+        margin-top: 20px;
     }
     .section-supreme {
         grid-template-columns: repeat(1, 1fr);
@@ -128,6 +136,13 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media screen and (min-width:375px) {
+    table {
+        width: 370px;
+    }
+}
+
 @media screen and (min-width:768px) {
     @mixin template-colums-tablet {
         grid-template-columns: repeat(2, 1fr);
@@ -136,6 +151,7 @@
         font-size: 20px;
     }
     .banner-text  {
+        margin-left: 20%;
         h1 {
             font-size:35px;
         }
@@ -163,7 +179,7 @@
         grid-template-rows: repeat(2, 1fr);
         gap: 10px;
         width: 60%;
-        height: 900px;
+        height: 600px;
 
         .div_titulo {
             font-size: 48px;
@@ -171,8 +187,8 @@
         }
     }
     .product-desc {
-        width: 70%;
-        padding-left: 30%;
+        width: 75%;
+        padding-left: 25%;
 
         .tituloprod {
             margin-top: 100px;
@@ -221,21 +237,24 @@
     .comprar {
         @extend %font-tablet;
     }
+    .titulo2 {
+        font-size: 45px;
+    }
     .section1 {
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 10%;
+        margin-left: 9%;
     }
     .section1-2 {
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 10%;
+        margin-left: 9%;
     }
     .sectionaccesorios {
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 10%;
+        margin-left: 9%;
     }
     .section-marcas {
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 10%;
+        margin-left: 9%;
     }
     .section-supreme {
         @include template-colums-tablet;
@@ -254,8 +273,10 @@
 @media screen and (min-width:1024px) {
     @mixin template-colums {
         grid-template-columns: repeat(3, 1fr);
+        margin-left: 5%;
     }
     .banner-text {
+        margin-left: 25%;
         h1 {
             font-size: 42px;
         }
@@ -263,6 +284,11 @@
             font-size: 35px;
         }
     }
+    .product-desc {
+        width: 70%;
+        padding-left: 30%;
+    }
+    
     .contact-formulario {
         display: grid;
     }
@@ -284,7 +310,7 @@
         @include template-colums;
     }
     .section1-2 {
-        @include template-colums;;
+        @include template-colums;
     }
     .sectionaccesorios {
         @include template-colums;
@@ -305,3 +331,67 @@
         @include template-colums;
     }
 } 
+
+
+@media screen and (min-width:1366px) {
+    .section1 {
+        margin-left: 10%
+    }
+    .section1-2 {
+        margin-left: 10%
+    }
+    .sectionaccesorios {
+        margin-left: 10%
+    }
+    .section-marcas {
+        margin-left: 10%
+    }
+    .section-vlone {
+        margin-left: 10%
+    }
+    .section-drew {
+        margin-left: 10%
+    }
+    .section-supreme {
+        margin-left: 10%
+    }
+    .section-jordan {
+        margin-left: 10%
+    }
+}
+
+@media screen and (min-width:1650px) {
+    .grid_categorias {
+        height: 1200px;
+    }
+    .product-desc {
+        width: 65%;
+        padding-left: 35%;
+        
+    }
+    .img-marcas {
+        width: 400px;
+    }
+    .section1 {
+        .imgsection1 {
+            width: 400px;
+        }
+    }
+    .section1-2 {
+        .imgsection1-2 {
+            width: 400px;
+        }
+    }
+    .sectionaccesorios {
+        .imgsectacc {
+            width: 400px;
+        }
+    }
+    .lanzamientos {
+        display: flex;
+        justify-content: center;
+        padding-left: 10%;
+        width: 90%;
+    }
+
+}
