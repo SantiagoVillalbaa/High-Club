@@ -4,7 +4,7 @@
     margin-top: 50px;
     font-size: 55px;
     font-family: 'Bebas Neue', cursive;
-    color: white;
+    color: $color-princ;
     display: flex;
     justify-content: center;
 }
@@ -124,7 +124,7 @@ table {
         font-size: 20px; 
         &:hover {
         background: rgb(168, 5, 5);
-        color: white;
+        color: $color-princ;
         }
         }
     }
